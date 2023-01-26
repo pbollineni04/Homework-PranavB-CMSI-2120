@@ -61,10 +61,10 @@ class Grades {
 
     public String histogram(){
         String h1 = "90 - 100 | ";
-        String h2 = "80 - 89 | ";
-        String h3= "70 - 79 | ";
-        String h4 = "60 - 69 | ";
-        String h5 = "< 60 | ";
+        String h2 = "80 - 89  | ";
+        String h3 = "70 - 79  | ";
+        String h4 = "60 - 69  | ";
+        String h5 = "< 60     | ";
         for(var i = 0; i < gradesArray.length; i++){
             if(gradesArray[i] >= 90){
                 h1 += "*";
